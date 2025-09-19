@@ -539,7 +539,7 @@ const Portfolio = () => {
                     </ListGroup.Item>
                     <ListGroup.Item className={`bg-transparent ${darkMode ? 'text-light' : 'text-dark'} border-secondary d-flex align-items-center`}>
                       <Mail size={20} className="text-purple me-3" />
-                      <span>marianabudani@example.com</span>
+                      <span>mariana.budani@gmail.com</span>
                     </ListGroup.Item>
                   </ListGroup>
                 </Card.Body>
