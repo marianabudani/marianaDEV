@@ -75,7 +75,7 @@ const Portfolio = () => {
             details: 'Trabajo en el desarrollo y mantenimiento de sistemas web para la administración pública, implementando soluciones eficientes y escalables.'
           },
           {
-            company: 'Tupper',
+            company: 'Tupperware SRL',
             position: 'Desarrolladora Web',
             period: 'Período anterior - Enero 2025',
             location: 'Buenos Aires, Argentina',
@@ -84,13 +84,13 @@ const Portfolio = () => {
             details: 'Participé en el desarrollo de aplicaciones web modernas utilizando React, mejorando la experiencia de usuario y optimizando el rendimiento.'
           },
           {
-            company: 'Ministerio del Interior',
-            position: 'Administrativa',
+            company: 'Ministerio de las mujeres, genero y diversidad',
+            position: 'Desarrollo Web',
             period: 'Experiencia previa',
             location: 'Buenos Aires, Argentina',
-            description: 'Gestión administrativa, coordinación de procesos y manejo de sistemas internos.',
+            description: 'Desarrollo web, coordinación de procesos y manejo de sistemas internos.',
             technologies: ['Gestión', 'Processos', 'Coordinación'],
-            details: 'Responsable de la gestión administrativa y coordinación de procesos internos, desarrollando habilidades de organización y liderazgo.'
+            details: 'Responsable de proyectos y coordinación de procesos internos, desarrollando habilidades de organización y liderazgo.'
           }
         ]
       },
@@ -234,7 +234,7 @@ const Portfolio = () => {
             details: 'Working on the development and maintenance of web systems for public administration, implementing efficient and scalable solutions.'
           },
           {
-            company: 'Tupper',
+            company: 'Tupperware SRL',
             position: 'Web Developer',
             period: 'Previous Period - January 2025',
             location: 'Buenos Aires, Argentina',
@@ -243,13 +243,13 @@ const Portfolio = () => {
             details: 'Participated in the development of modern web applications using React, improving user experience and optimizing performance.'
           },
           {
-            company: 'Ministry of Interior',
-            position: 'Administrative',
+            company: 'Ministry of Women, Gender and Diversity',
+            position: 'Web Development',
             period: 'Previous Experience',
             location: 'Buenos Aires, Argentina',
-            description: 'Administrative management, process coordination and internal systems management.',
+            description: 'Web development, process coordination and internal systems management.',
             technologies: ['Management', 'Processes', 'Coordination'],
-            details: 'Responsible for administrative management and coordination of internal processes, developing organizational and leadership skills.'
+            details: 'Responsible of proyects, management and coordination of internal processes, developing organizational and leadership skills.'
           }
         ]
       },
@@ -507,16 +507,20 @@ const Portfolio = () => {
                 <p className="mb-3">{t.about.text2}</p>
                 <p>{t.about.text3}</p>
               </div>
-              <div className="mt-4">
-                <Button 
-                  variant="outline-purple" 
-                  onClick={() => openModal({type: 'resume'})}
-                  className="d-flex align-items-center"
-                >
-                  <Download size={18} className="me-2" />
-                  {language === 'es' ? 'Descargar CV' : 'Download Resume'}
-                </Button>
-              </div>
+              {modalContent?.type === 'resume' && (
+                <div className="text-center">
+                  <p>{language === 'es' ? 'Descarga mi currículum en formato PDF' : 'Download my resume in PDF format'}</p>
+                  <a
+                    href={language === 'es' ? '/cv_es.pdf' : '/cv_en.pdf'}
+                    download
+                    className="btn btn-purple d-flex align-items-center mx-auto"
+                  >
+                    <Download size={18} className="me-2" />
+                    {language === 'es' ? 'Descargar CV' : 'Download Resume'}
+                  </a>
+                </div>
+              )}
+
             </Col>
             <Col lg={6}>
               <Card bg={darkMode ? "dark" : "light"} text={darkMode ? "light" : "dark"} className="h-100 border-purple shadow">
