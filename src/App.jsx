@@ -47,19 +47,22 @@ const Portfolio = () => {
       hero: {
         title: 'Mariana Budani',
         subtitle: 'Desarrolladora Web Full Stack',
-        description: 'Especializada en PHP Laravel, JavaScript y React. Con experiencia en administración y desarrollo web, busco oportunidades remotas para contribuir con equipos innovadores.',
+        description: 'Especializada en PHP Laravel, Java, NodeJS y React. Con experiencia en administración y desarrollo web, busco oportunidades remotas para contribuir con equipos innovadores.',
         viewProjects: 'Ver Proyectos',
         contact: 'Contactar'
       },
       about: {
         title: 'Sobre Mí',
-        text1: 'Soy Desarrolladora Full-Stack con una sólida transición hacia el desarrollo web. Mi experiencia única combinando gestión de equipos con desarrollo técnico me permite aportar una perspectiva integral a los proyectos.',
-        text2: 'Actualmente trabajo como desarrolladora web en la Vicejefatura del Interior de la Nación utilizando PHP Laravel, y he completado mi formación en desarrollo Full Stack con especialización en React.',
-        text3: 'Busco oportunidades de trabajo remoto donde pueda aplicar mis habilidades técnicas y experiencia en gestión para contribuir al crecimiento de equipos dinámicos.',
+        text1: 'Soy Desarrolladora Full-Stack con una sólida trayectoria en el desarrollo web. Mi experiencia única combinando gestión de equipos con desarrollo técnico me permite aportar una perspectiva integral a los proyectos.',
+        text2: 'Cuento con más de 8 años de experiencia, principalmente como programadora web en diferentes lenguajes backend y frontend. Aporto soluciones en el área de desarrollo de software, he participado en planificaciones de procesos de cambio, adquisición e integración de nuevas herramientas, análisis de problemáticas estructurales.',
+        text3: 'Implementación de políticas, estándares y procedimientos para nuevas tecnologías. Me destaco en el desarrollo de aplicaciones responsivas, web progresivas, e híbridas. También en el desarrollo de aplicaciones orientadas a microservicios, con foco en conseguir alta disponibilidad y escalabilidad aprovechando las funciones de Kubernetes en sus diferentes distribuciones.',
+        text4: 'Actualmente trabajo como desarrolladora web en la Vicejefatura del Interior de la Nación utilizando PHP Laravel, y he completado mi formación en desarrollo Full Stack con especialización en React.',
+        text5: 'Busco oportunidades de trabajo remoto donde pueda aplicar mis habilidades técnicas y experiencia en gestión para contribuir al crecimiento de equipos dinámicos.',
         personalInfo: 'Información Personal',
         education: 'Formación',
         location: 'Buenos Aires, Argentina',
-        role: 'Desarrolladora Full Stack'
+        role: 'Desarrolladora web Full Stack',
+        email: 'mariana.budani@gmail.com',
       },
       experience: {
         title: 'Experiencia Profesional',
@@ -80,7 +83,7 @@ const Portfolio = () => {
             period: 'Período anterior - Enero 2025',
             location: 'Buenos Aires, Argentina',
             description: 'Desarrollo de soluciones web, mantenimiento de aplicaciones y colaboración en proyectos de e-commerce.',
-            technologies: ['JavaScript', 'React', 'HTML', 'CSS'],
+            technologies: ['JavaScript', 'React', 'Bootstrap 5', 'Java', 'NodeJS'],
             details: 'Participé en el desarrollo de aplicaciones web modernas utilizando React, mejorando la experiencia de usuario y optimizando el rendimiento.'
           },
           {
@@ -89,8 +92,35 @@ const Portfolio = () => {
             period: 'Experiencia previa',
             location: 'Buenos Aires, Argentina',
             description: 'Desarrollo web, coordinación de procesos y manejo de sistemas internos.',
-            technologies: ['Gestión', 'Processos', 'Coordinación'],
+            technologies: ['PHP', 'NodeJS', 'React', 'GIT', 'Metodologías ágiles', 'Gestión'],
             details: 'Responsable de proyectos y coordinación de procesos internos, desarrollando habilidades de organización y liderazgo.'
+          },
+          {
+            company: 'Trenes Argentinos SRL',
+            position: 'Desarrollo Web',
+            period: 'Experiencia previa',
+            location: 'Buenos Aires, Argentina',
+            description: 'Desarrollo de herramientas para gestión de mantenimiento de unidades y estaciones ferroviarias. Desarrollo web con metodologías ágiles y control de versiones Git',
+            technologies: ['PHP', 'Laravel', 'PostgreSQL', 'GIT', 'Metodologías ágiles'],
+            details: 'Conocí y aprendí el uso de Laravel, formó parte importante en una cualidad que hoy en día sigo puliendo y mejorando.'
+          },
+          {
+            company: 'Ministerio del Interior, Obras Públicas y Vivienda',
+            position: 'Desarrollo Web',
+            period: 'Experiencia previa',
+            location: 'Buenos Aires, Argentina',
+            description: 'Desarrollo y actualización de aplicativos web para gestión de municipios. Proyectos relacionados con gestión documental, estadísticas y turnos del Renaper. Implementación de estándares de desarrollo y automatización de despliegues.',
+            technologies: ['PHP', 'CodeIgniter', 'MariaDB','GIT'],
+            details: 'Comencé mis conocimientos en PHP, mi desarrollo en el ministerio me llevó con el tiempo a lograr ser responsable de proyectos y coordinación de procesos internos. Impulsé el uso de control de versiones con GIT y metodologías ágiles para mejorar la eficiencia del equipo.'
+          },
+           {
+            company: 'Accenture SRL',
+            position: 'Desarrollo Web',
+            period: 'Experiencia previa',
+            location: 'Buenos Aires, Argentina',
+            description: 'Desarrollo web para manejo de IVA ventas y facturación. Mantenimiento correctivo y evolutivo, refactorización de código, documentación y soporte técnico.',
+            technologies: ['Java', 'JavaScript', 'BBDD Oracle','SVN', 'JIRA', 'Metodologías ágiles', 'Spring', 'Hibernate'],
+            details: 'Adquirí experiencia en desarrollo de nivel empresarial, trabajando con sistemas complejos y manteniendo altos estándares de calidad de código en un entorno corporativo.'
           }
         ]
       },
@@ -206,19 +236,22 @@ const Portfolio = () => {
       hero: {
         title: 'Mariana Budani',
         subtitle: 'Full Stack Web Developer',
-        description: 'Specialized in PHP Laravel, JavaScript and React. With experience in team lead and web development, seeking remote opportunities to contribute to innovative teams.',
+        description: 'Specialized in PHP Laravel, Java, NodeJS and React. With experience in team management and web development, seeking remote opportunities to contribute to innovative teams.',
         viewProjects: 'View Projects',
         contact: 'Get in Touch'
       },
       about: {
         title: 'About Me',
-        text1: 'I am a Team Leader with a solid transition into web development. My unique experience combining administrative management with technical development allows me to bring a comprehensive perspective to projects.',
-        text2: 'Currently working as a web developer at the Vice-Ministry of Interior using PHP Laravel, and I have completed my Full Stack development training with specialization in React.',
-        text3: 'I seek remote work opportunities where I can apply my technical skills and management experience to contribute to the growth of dynamic teams.',
+        text1: 'I am a Full-Stack Developer with a solid track record in web development. My unique experience combining team management with technical development allows me to bring a comprehensive perspective to projects.',
+        text2: 'I have over 8 years of experience, mainly as a web programmer in different backend and frontend languages. I provide solutions in the software development area, having participated in change process planning, acquisition and integration of new tools, and structural problem analysis.',
+        text3: 'Implementation of policies, standards and procedures for new technologies. I excel in developing responsive applications, progressive web apps, and hybrid applications. Also in developing microservices-oriented applications, focusing on achieving high availability and scalability leveraging Kubernetes functions in its different distributions.',
+        text4: 'Currently working as a web developer at the Vice-Ministry of Interior of Argentina using PHP Laravel, and I have completed my Full Stack development training with specialization in React.',
+        text5: 'I seek remote work opportunities where I can apply my technical skills and management experience to contribute to the growth of dynamic teams.',
         personalInfo: 'Personal Information',
         education: 'Education',
         location: 'Buenos Aires, Argentina',
-        role: 'Full Stack Developer'
+        role: 'Full Stack Web Developer',
+        email: 'mariana.budani@gmail.com',
       },
       experience: {
         title: 'Professional Experience',
@@ -239,7 +272,7 @@ const Portfolio = () => {
             period: 'Previous Period - January 2025',
             location: 'Buenos Aires, Argentina',
             description: 'Web solutions development, application maintenance and collaboration on e-commerce projects.',
-            technologies: ['JavaScript', 'React', 'HTML', 'CSS'],
+            technologies: ['JavaScript', 'React', 'Bootstrap 5', 'Java', 'NodeJS'],
             details: 'Participated in the development of modern web applications using React, improving user experience and optimizing performance.'
           },
           {
@@ -248,8 +281,35 @@ const Portfolio = () => {
             period: 'Previous Experience',
             location: 'Buenos Aires, Argentina',
             description: 'Web development, process coordination and internal systems management.',
-            technologies: ['Management', 'Processes', 'Coordination'],
-            details: 'Responsible of proyects, management and coordination of internal processes, developing organizational and leadership skills.'
+            technologies: ['PHP', 'NodeJS', 'React', 'GIT', 'Agile Methodologies', 'Management'],
+            details: 'Responsible for projects and coordination of internal processes, developing organizational and leadership skills.'
+          },
+          {
+            company: 'Trenes Argentinos SRL',
+            position: 'Web Development',
+            period: 'Previous Experience',
+            location: 'Buenos Aires, Argentina',
+            description: 'Development of tools for management of railway units and stations maintenance. Web development with agile methodologies and Git version control.',
+            technologies: ['PHP', 'Laravel', 'PostgreSQL', 'GIT', 'Agile Methodologies'],
+            details: 'Learned and worked with Laravel, which became an important skill that I continue to refine and improve today.'
+          },
+          {
+            company: 'Ministry of Interior, Public Works and Housing',
+            position: 'Web Development',
+            period: 'Previous Experience',
+            location: 'Buenos Aires, Argentina',
+            description: 'Development and updating of web applications for municipal management. Projects related to document management, statistics and Renaper appointments. Implementation of development standards and deployment automation.',
+            technologies: ['PHP', 'CodeIgniter', 'MariaDB', 'GIT'],
+            details: 'Started my knowledge in PHP, my development at the ministry led me over time to become responsible for projects and coordination of internal processes. Promoted the use of version control with GIT and agile methodologies to improve team efficiency.'
+          },
+          {
+            company: 'Accenture SRL',
+            position: 'Web Development',
+            period: 'Previous Experience',
+            location: 'Buenos Aires, Argentina',
+            description: 'Web development for VAT sales and billing management. Corrective and evolutionary maintenance, code refactoring, documentation and technical support.',
+            technologies: ['Java', 'JavaScript', 'Oracle DB', 'SVN', 'JIRA', 'Agile Methodologies', 'Spring', 'Hibernate'],
+            details: 'Gained experience in enterprise-level development, working with complex systems and maintaining high-quality code standards in a corporate environment.'
           }
         ]
       },
@@ -257,10 +317,10 @@ const Portfolio = () => {
         title: 'Education & Certifications',
         items: [
           {
-            institution: 'University',
-            degree: 'Bachelor in Business Administration',
-            year: 'University Degree',
-            description: 'Comprehensive training in business management, administration and leadership.'
+            institution: 'Tertiary Education',
+            degree: 'Technician in Video Game Testing',
+            year: 'Tertiary Degree',
+            description: 'Comprehensive training in document management and video game testing.'
           },
           {
             institution: 'CoderHouse',
@@ -273,6 +333,24 @@ const Portfolio = () => {
             degree: 'React JS',
             year: '2024',
             description: 'Frontend development specialization with React, hooks, context and best practices.'
+          },
+          {
+            institution: 'CoderHouse',
+            degree: 'Cloud Computing',
+            year: '2025',
+            description: 'Implementation and management of cloud services, optimizing resources, security and scalability for projects of any size.'
+          },
+          {
+            institution: 'CoderHouse',
+            degree: 'Javascript',
+            year: '2024',
+            description: 'Interactivity in projects, DOM manipulation, event programming and construction of dynamic functionalities for the web.'
+          },
+          {
+            institution: 'CoderHouse',
+            degree: 'Backend Programming with Node.js',
+            year: '2024',
+            description: 'Design of scalable and efficient backend architectures. Project structuring, implementation of design patterns and optimization of communication between services for robust and maintainable projects.'
           }
         ]
       },
@@ -339,8 +417,10 @@ const Portfolio = () => {
 
   const skills = {
     frontend: ["React", "JavaScript", "HTML5", "CSS3", "Responsive Design"],
-    backend: ["PHP", "Laravel", "Node.js", "MySQL", "API REST"],
-    tools: ["Git", "GitHub", "VS Code", "NPM", "Composer"],
+    backend: ["PHP", "NodeJS", "Java", "API REST"],
+    frameworks: ["Laravel", "Express", "Bootstrap 5", "VueJS", "Spring", "Hibernate", "CodeIgniter"],
+    databases: ["MariaDB","MySQL", "PostgreSQL", "MongoDB", "Firebase", "Oracle", "MySQL Server"],
+    tools: ["Git", "GitHub", "VS Code", "NPM", "Yarn", "Composer"],
     soft: language === 'es' 
       ? ["Gestión de Proyectos", "Trabajo en Equipo", "Liderazgo", "Comunicación", "Resolución de Problemas"]
       : ["Project Management", "Teamwork", "Leadership", "Communication", "Problem Solving"]
@@ -505,22 +585,22 @@ const Portfolio = () => {
               <div className={darkMode ? "text-light" : "text-dark"}>
                 <p className="mb-3">{t.about.text1}</p>
                 <p className="mb-3">{t.about.text2}</p>
-                <p>{t.about.text3}</p>
+                <p className="mb-3">{t.about.text3}</p>
+                <p className="mb-3">{t.about.text4}</p>
+                <p>{t.about.text5}</p>
               </div>
-              {modalContent?.type === 'resume' && (
-                <div className="text-center">
-                  <p>{language === 'es' ? 'Descarga mi currículum en formato PDF' : 'Download my resume in PDF format'}</p>
-                  <a
-                    href={language === 'es' ? '/cv_es.pdf' : '/cv_en.pdf'}
-                    download
-                    className="btn btn-purple d-flex align-items-center mx-auto"
-                  >
-                    <Download size={18} className="me-2" />
-                    {language === 'es' ? 'Descargar CV' : 'Download Resume'}
-                  </a>
-                </div>
-              )}
-
+              <div className="text-center mt-4">
+                <Button 
+                  variant="purple" 
+                  size='md'
+                  as="a"
+                  href={language === 'es' ? '/cv_mariana_budani_es.pdf' : '/cv_mariana_budani_en.pdf'}
+                  download={language === 'es' ? 'CV_Mariana_Budani_ES.pdf' : 'CV_Mariana_Budani_EN.pdf'}
+                >
+                  <Download size={18} className="me-2" />
+                  {language === 'es' ? 'Descargar CV' : 'Download Resume'}
+                </Button>
+              </div>
             </Col>
             <Col lg={6}>
               <Card bg={darkMode ? "dark" : "light"} text={darkMode ? "light" : "dark"} className="h-100 border-purple shadow">
@@ -848,7 +928,9 @@ const Portfolio = () => {
                   <Mail size={32} className="text-purple mb-3 mx-auto" />
                   <Card.Title>{t.contact.email}</Card.Title>
                   <Card.Text className="text-white small">{t.contact.emailText}</Card.Text>
-                  <Button variant="purple" size="sm">
+                  <Button variant="purple" size="sm"
+                  href="mailto:mariana.budani@gmail.com"
+                  target="_blank">
                     {language === 'es' ? 'Enviar email' : 'Send email'}
                   </Button>
                 </Card.Body>
@@ -864,7 +946,9 @@ const Portfolio = () => {
                   <Linkedin size={32} className="text-info mb-3 mx-auto" />
                   <Card.Title>{t.contact.linkedin}</Card.Title>
                   <Card.Text className="text-white small">{t.contact.linkedinText}</Card.Text>
-                  <Button variant="purple" size="sm">
+                  <Button variant="purple" size="sm"
+                    href="https://www.linkedin.com/in/mariana-budani-b58950151/"
+                    target="_blank">
                     {language === 'es' ? 'Conectar' : 'Connect'}
                   </Button>
                 </Card.Body>
@@ -880,7 +964,10 @@ const Portfolio = () => {
                   <Github size={32} className="text-secondary mb-3 mx-auto" />
                   <Card.Title>{t.contact.github}</Card.Title>
                   <Card.Text className="text-white small">{t.contact.githubText}</Card.Text>
-                  <Button variant="purple" size="sm">
+                  <Button variant="purple" size="sm"
+                    href="https://github.com/marianabudani"
+                    target="_blank"
+                  >
                     {language === 'es' ? 'Ver perfil' : 'View profile'}
                   </Button>
                 </Card.Body>
@@ -893,7 +980,9 @@ const Portfolio = () => {
             <p className="mb-3">
               {t.contact.cta.description}
             </p>
-            <Button variant="purple" size="lg" className="d-flex align-items-center mx-auto">
+            <Button variant="purple" size="md"
+              href="mailto:mariana.budani@gmail.com"
+              target="_blank">
               <Mail size={20} className="me-2" />
               {t.contact.cta.button}
             </Button>
