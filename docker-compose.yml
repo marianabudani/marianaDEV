@@ -1,0 +1,9 @@
+services:
+
+  mbudaniapp:
+    build: .
+    image: mbudani/mariana:v1
+    container_name: mbudaniapp
+    ports:
+      - "${APP_PORT}:3000"
+    restart: unless-stopped
