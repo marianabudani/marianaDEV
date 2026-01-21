@@ -184,7 +184,7 @@ const Portfolio = () => {
             type: "E-commerce",
             details: "Este proyecto fue desarrollado como trabajo final del curso de React en CoderHouse. Implementa un sistema completo de e-commerce con funcionalidades avanzadas como filtrado de productos, carrito de compras persistente y proceso de checkout.",
             technologies: ["React", "JavaScript", "CSS", "Firebase"],
-            githubUrl: "https://github.com/marianabudani/tienda-esoterica",
+            githubUrl: "https://github.com/marianabudani/esotericStore",
             demoUrl: "https://tienda-esoterica.netlify.app"
           },
           {
@@ -193,17 +193,17 @@ const Portfolio = () => {
             type: "Web App",
             details: "Sistema de gestión para laboratorio que permite administrar pacientes, muestras y resultados. Desarrollado con React en el frontend y Node.js en el backend.",
             technologies: ["React", "Node.js", "MongoDB", "Express"],
-            githubUrl: "https://github.com/marianabudani/laboratorio-umbrella",
-            demoUrl: "https://laboratorio-umbrella.vercel.app"
+            githubUrl: "https://github.com/marianabudani/laboratorio-Budani",
+            demoUrl: "https://marianabudani.github.io/laboratorio-Budani/index.html"
           },
           {
-            name: "Trabajo Final React",
-            description: "Proyecto final del curso de React en CoderHouse, demostrando dominio completo del framework y mejores prácticas.",
-            type: "React App",
-            details: "Aplicación que muestra el dominio de React, incluyendo hooks, context API, routing y consumo de APIs. Diseño responsive y optimizado para SEO.",
-            technologies: ["React", "React Router", "Context API", "CSS Modules"],
-            githubUrl: "https://github.com/marianabudani/react-final-project",
-            demoUrl: "https://react-final-project-mb.vercel.app"
+            name: "Proyecto Haute OneLifeRP",
+            description: "Proyecto de estudio para ver mis avances en desarrollo frontend, con buenas prácticas y dominio del framework.",
+            type: "Node JS App",
+            details: "Haute es un proyecto personal desarrollado para practicar y demostrar mis habilidades en desarrollo web utilizando NodeJS y EJS. El proyecto incluye una interfaz de usuario atractiva y funcionalidades interactivas.",
+            technologies: ["NodeJS", "EJS", "Vue", "CSS", "Express"],
+            githubUrl: "https://github.com/marianabudani/haute",
+            demoUrl: "https://www.haute.com.ar"
           }
         ]
       },
